@@ -25,7 +25,7 @@ The connection between the Grove Vision AI V2, Raspberry Pi Pico 2, and the PCB 
 
 The four PCBs, each with eight shift registers, are connected as shown in figure 3.
 
-<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/src/hw2.png" width="700"><br> figure 3. </p>
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/src/hw2.png" width="500"><br> figure 3. </p>
 
 The perfboard manages the Z-axis. Pins 6 to 13 on the Raspberry Pi Pico 2 are connected to eight 220 Ω resistors and eight NPN transistors, as shown in figure 4.
 
