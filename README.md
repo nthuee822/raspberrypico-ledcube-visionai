@@ -10,3 +10,4 @@ Here’s how our system works: the camera on the Grove Vision AI V2 first recogn
 This project is significant for two main reasons. First, we developed a Raspberry Pi Pico 2 library for the Grove Vision AI V2, making it easier for developers to integrate and leverage its vision features. Second, we created a generalized Raspberry Pi Pico library for the 8x8x8 LED Cube, allowing developers to easily modify display patterns simply by adjusting the code.
 
 ## Getting Started
+![](120783.jpg | width = 100)
