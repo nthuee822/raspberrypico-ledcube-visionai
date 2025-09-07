@@ -29,7 +29,7 @@ The four PCBs, each with eight shift registers, are connected as shown in figure
 
 The perfboard manages the Z-axis. Pins 6 to 13 on the Raspberry Pi Pico 2 are connected to eight 220 Ω resistors and eight NPN transistors, as shown in figure 4.
 
-<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/src/120782.jpg" width="500"><br> figure 4. </p>
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/src/120782.jpg" width="300"><br> figure 4. </p>
 
 ## Software
 
