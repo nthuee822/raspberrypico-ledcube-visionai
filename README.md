@@ -11,7 +11,7 @@ This project is significant for two main reasons. First, we developed a Raspberr
 
 ## Getting Started
 
-<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/120783.jpg" width="300"><br> figure 1. </p>
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/src/120783.jpg" width="300"><br> figure 1. </p>
 
 ### Hardware setup: Grove vision AI v2 module
 
@@ -19,17 +19,17 @@ We recommend using the more powerful Grove Vision AI V2 for this project. Setup 
 
 The connection between the Grove Vision AI V2, Raspberry Pi Pico 2, and the PCB with eight shift registers is shown in figure 2.
 
-<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/hw1.png" width="500"><br> figure 2. </p>
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/src/hw1.png" width="500"><br> figure 2. </p>
 
 ### Hardware setup: 8x8x8 LED Cube
 
 The four PCBs, each with eight shift registers, are connected as shown in figure 3.
 
-<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/hw2.png" width="500"><br> figure 3. </p>
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/src/hw2.png" width="700"><br> figure 3. </p>
 
 The perfboard manages the Z-axis. Pins 6 to 13 on the Raspberry Pi Pico 2 are connected to eight 220 Ω resistors and eight NPN transistors, as shown in figure 4.
 
-<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/120782.jpg" width="500"><br> figure 4. </p>
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/src/120782.jpg" width="500"><br> figure 4. </p>
 
 ## Software
 
