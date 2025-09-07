@@ -49,7 +49,9 @@ A more generalized implementation.
 Developers can easily customize display effects by modifying only the matrix definition.
 
 ### Combination
+Finally, we integrated everything into a rock–paper–scissors gesture recognition system.
+The Grove Vision AI V2 recognizes the gesture, and the result is projected onto the 8x8x8 LED Cube.
 
-
+For further details, please refer to Cube.cpp.
 
 ## Reference
