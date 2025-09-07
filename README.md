@@ -10,4 +10,31 @@ Here’s how our system works: the camera on the Grove Vision AI V2 first recogn
 This project is significant for two main reasons. First, we developed a Raspberry Pi Pico 2 library for the Grove Vision AI V2, making it easier for developers to integrate and leverage its vision features. Second, we created a generalized Raspberry Pi Pico library for the 8x8x8 LED Cube, allowing developers to easily modify display patterns simply by adjusting the code.
 
 ## Getting Started
-![](120783.jpg | width = 100)
+
+![image](https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/120783.jpg) | width = 100)
+
+figure 1.
+
+### The hardware build of Grove vision AI v2 module
+
+We recommend using the more powerful Grove vision AI v2 in this project. Its set up can be refer to the following link: https://wiki.seeedstudio.com/grove_vision_ai_v2/.
+
+The connection between  Grove vision AI v2,  Raspberry Pi Pico 2, and the PCB which equipped eight registers is shown in figure 2.
+
+![image](https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/hw1.png) | width = 100)
+
+figure 2.
+
+### The hardware build of LED Cube
+
+The four PCB with eight shift registers are connected as in figure 3.
+
+![image](https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/hw2.png) | width = 100)
+
+figure 3.
+
+The perfboard the manages the Z-axis,  pin 6 to 13 on Raspberry Pi Pico 2 connected to eight 220 ohm resisters, and eight NPN transistors.
+
+![image](https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/120782.jpg) | width = 100)
+
+figure 4.
