@@ -11,30 +11,22 @@ This project is significant for two main reasons. First, we developed a Raspberr
 
 ## Getting Started
 
-![image](https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/120783.jpg) | width = 100)
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/120783.jpg" width="300"><br> figure 1. </p>
 
-figure 1.
+### Hardware setup: Grove vision AI v2 module
 
-### The hardware build of Grove vision AI v2 module
+We recommend using the more powerful Grove Vision AI V2 for this project. Setup instructions can be found at the official guide: https://wiki.seeedstudio.com/grove_vision_ai_v2/.
 
-We recommend using the more powerful Grove vision AI v2 in this project. Its set up can be refer to the following link: https://wiki.seeedstudio.com/grove_vision_ai_v2/.
+The connection between the Grove Vision AI V2, Raspberry Pi Pico 2, and the PCB with eight shift registers is shown in figure 2.
 
-The connection between  Grove vision AI v2,  Raspberry Pi Pico 2, and the PCB which equipped eight registers is shown in figure 2.
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/hw1.png" width="300"><br> figure 2. </p>
 
-![image](https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/hw1.png) | width = 100)
+### Hardware setup: 8x8x8 LED Cube
 
-figure 2.
+The four PCBs, each with eight shift registers, are connected as shown in figure 3.
 
-### The hardware build of LED Cube
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/hw2.png" width="300"><br> figure 3. </p>
 
-The four PCB with eight shift registers are connected as in figure 3.
+The perfboard manages the Z-axis. Pins 6 to 13 on the Raspberry Pi Pico 2 are connected to eight 220 Ω resistors and eight NPN transistors, as shown in figure 4.
 
-![image](https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/hw2.png) | width = 100)
-
-figure 3.
-
-The perfboard the manages the Z-axis,  pin 6 to 13 on Raspberry Pi Pico 2 connected to eight 220 ohm resisters, and eight NPN transistors.
-
-![image](https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/120782.jpg) | width = 100)
-
-figure 4.
+<p align="center"> <img src="https://github.com/nthuee822/raspberrypico-ledcube-visionai/blob/main/120782.jpg" width="300"><br> figure 4. </p>
