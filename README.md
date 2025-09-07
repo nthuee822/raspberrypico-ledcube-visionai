@@ -33,4 +33,23 @@ The perfboard manages the Z-axis. Pins 6 to 13 on the Raspberry Pi Pico 2 are co
 
 ## Software
 
+### Grove vision AI v2 module
+We revised the official Seeed_Arduino_SSCMA library (originally for Arduino) into an I²C interface library for the Raspberry Pi Pico.
+This makes it easier to integrate the Grove Vision AI V2 with Pico-based projects.
+
+### 8x8x8 LED Cube
+We provide two versions of code for the LED Cube:
+
+#### led_cube.c
+A standalone project with several predefined special effects.
+Simply run the code on the Raspberry Pi Pico, and it will light up the 8x8x8 LED Cube with built-in animations.
+
+#### Cube_general.c
+A more generalized implementation.
+Developers can easily customize display effects by modifying only the matrix definition.
+
+### Combination
+
+
+
 ## Reference
