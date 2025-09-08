@@ -7,7 +7,7 @@ There are many tutorials online about how to build an 8x8x8 LED Cube, but very f
 
 Here’s how our system works: the camera on the Grove Vision AI V2 first recognizes a hand gesture (rock, paper, or scissors). It then sends the result via I²C to the Raspberry Pi Pico 2. The Pico 2 processes the data and communicates with the LED Cube’s PCB through the SPI interface. The PCB, equipped with eight shift registers, controls the LED Cube’s X–Y plane, while an additional perfboard manages the Z-axis. We will present the hardware setup in the next section.
 
-This project is significant for two main reasons. First, we developed a Raspberry Pi Pico 2 library for the Grove Vision AI V2, making it easier for developers to integrate and leverage its vision features. Second, we created a generalized Raspberry Pi Pico library for the 8x8x8 LED Cube, allowing developers to easily modify display patterns simply by adjusting the code.
+This project is significant for two main reasons. First, we developed a library for the Grove Vision AI V2 to transmit data to Raspberry Pi Pico , making it easier for developers to integrate and leverage its vision features. Second, we created a generalized Raspberry Pi Pico library for the 8x8x8 LED Cube, allowing developers to easily modify display patterns simply by adjusting the code.
 
 ## Getting Started
 
@@ -34,6 +34,7 @@ The perfboard manages the Z-axis. Pins 6 to 13 on the Raspberry Pi Pico 2 are co
 ## Software
 
 ### Grove vision AI v2 module
+
 We revised the official Seeed_Arduino_SSCMA library (originally for Arduino) into an I²C interface library for the Raspberry Pi Pico.
 This makes it easier to integrate the Grove Vision AI V2 with Pico-based projects.
 
