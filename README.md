@@ -55,4 +55,8 @@ The Grove Vision AI V2 recognizes the gesture, and the result is projected onto 
 
 For further details, please refer to Cube.cpp.
 
-## Reference
+## Equipment Used
+
+- [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+- [Grove Vision AI V2](https://wiki.seeedstudio.com/grove_vision_ai_v2/)
+- [Seeed-Arduino_SSCMA Library](https://github.com/Seeed-Studio/Seeed_Arduino_SSCMA/)
